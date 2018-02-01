@@ -15,6 +15,7 @@ $mywiki_options = get_option( 'faster_theme_options' );
 <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
 <?php wp_head(); ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/user.css">
 </head>
 <body <?php body_class(); ?>>
 <div id="wrap">
